@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://auth-app.varcel.app"],
+    origin: ["http://localhost:3000", "https://auth-app-tan.varcel.app"],
     credentials: true,
   })
 );
